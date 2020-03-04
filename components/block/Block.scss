@@ -1,0 +1,58 @@
+@import './assets/global/variables.scss';
+
+      .container {
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        background-color: $black;
+
+        &__background_blue{
+          background-color:$blue;
+        }
+    }
+
+    .text{
+      &__blue{
+          color: $green;
+          margin:10px;
+      }
+      &__black{
+          color: $black;
+      }
+      &__yellow{
+          color: $yellow;
+          font-family: 'Avenir-Black';
+          font-size:30px;
+      }
+      &__white{
+          color: $white;
+      }
+    }
+
+    .btn{
+      &__green {
+         @include button-bg($green);
+         display:flex;
+         align-items: center;
+         text-decoration:none;
+         border-radius:3px;
+
+      }
+    }
+//   .button{
+//   &__lg{
+//
+//     display:flex;
+//     align-items: center;
+//     background-color:$white;
+//     color:$black;
+//     padding:20px;
+//   }
+//   &__sm{
+//     display:flex;
+//     align-items: center;
+//     background-color:$yellow;
+//     color:$black;
+//     padding:10px;
+// }
+//   }

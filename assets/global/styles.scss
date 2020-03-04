@@ -1,0 +1,37 @@
+@import './assets/global/variables.scss';
+
+  .container {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: $black;
+
+    &__background_blue{
+      background-color:$blue;
+    }
+}
+    .text{
+      &__blue{
+          color: $green;
+          margin:10px;
+      }
+      &__black{
+          color: $black;
+      }
+      &__yellow{
+          color: $yellow;
+      }
+      &__white{
+          color: $white;
+      }
+    }
+  .button{
+    &__lg{
+      display:flex;
+      align-items: center;
+      background-color:$white;
+      color:$black;
+      padding:20px;
+    }
+
+  }
